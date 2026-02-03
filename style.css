@@ -6,18 +6,42 @@
 }
 
 body{
-    
+
+
+}
+
+#hero{
+    background-image: url(imagen/feijuada.jpg);
+background-repeat: no-repeat;
+width: auto;
+height: 200px;    
 }
 
 .navbar{
+    margin: 10px;
     display: flex;
     gap: 15px;
     margin-bottom: 20px;
 }
 
+#logo{
+    border-radius: 50%;
+    height: 45px;
+}
+
+a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+a:hover{
+    color: red;
+}
+
 .container{
     margin-bottom: 20px;
-    display: flex;
+    display: flex;;
 }
 figure{
     display: flex;
