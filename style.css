@@ -6,16 +6,10 @@
 }
 
 body{
-
+/* background-color: lightslategray; */
 
 }
 
-#hero{
-    background-image: url(imagen/feijuada.jpg);
-background-repeat: no-repeat;
-width: auto;
-height: 200px;    
-}
 
 .navbar{
     margin: 10px;
@@ -40,14 +34,53 @@ a:hover{
 }
 
 .container{
-    margin-bottom: 20px;
-    display: flex;;
+    display: grid;
+     /* grid-template-columns: auto 300px 1fr auto; */
 }
+#hanburguer1{
+display: flex;
+}
+
+#hanburguer2{
+    display: flex;
+}
+
+#hanburguer3{
+    display: flex;
+}
+
 figure{
     display: flex;
     margin: 10px;
     padding: 10px;
     border: 1px solid black;
-    justify-content: center;
+}
+
+figcaption{
+    margin: 10px;
+    padding: 10px;
+}
+
+footer p {
+    display: grid;
     align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    width: auto;
+    height: 45px;
+}
+
+
+@media screen and (min-width: 768px){
+    
+    .container{
+        display:grid;
+        grid-template-columns:1fr;
+    }
+
 }
