@@ -37,17 +37,10 @@ a:hover{
     display: grid;
      /* grid-template-columns: auto 300px 1fr auto; */
 }
-#hanburguer1{
-display: flex;
+#hanburguer2,#hanburguer1,#hanburguer3{
+    text-align: center;
 }
 
-#hanburguer2{
-    display: flex;
-}
-
-#hanburguer3{
-    display: flex;
-}
 
 figure{
     display: flex;
